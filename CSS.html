@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    
+    <style>
+        body {
+            background-color: lightblue;
+            background-image: url("download.png");
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .highlight {
+            color: green;
+            font-size: 18px;
+            cursor: wait;
+        }
+
+        #special {
+            color: red;
+            font-weight: bold;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: Arial; background-color: yellow;">Welcome to CSS Example</h1>
+    
+    <p class="highlight">This paragraph is styled using a class selector.</p>
+    <p id="special">This paragraph is styled using an ID selector.</p>
+    <p>This is a normal paragraph with default element styling.</p>
+</body>
+</html>
